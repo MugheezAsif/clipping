@@ -128,6 +128,7 @@ def cmd_frames(nn, *items):
 
 
 def sheet_frames(a, keys, out):
+    keys = list(keys) + list(keys[-1:]) * (len(keys) % 2)  # xstack 2xN grid needs an even count
     n = len(keys)
     fc = "".join(f"[{i}]scale=320:180[s{i}];" for i in range(n)) + "".join(f"[s{i}]" for i in range(n)) + f"xstack=inputs={n}:grid=2x{(n + 1) // 2}:fill=black"
     run(["ffmpeg", "-y", *sum([["-i", os.path.join(a, k + ".jpg")] for k in keys], []), "-filter_complex", fc, out])

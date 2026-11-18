@@ -175,7 +175,7 @@ Publish natively for full reach: **YouTube Studio**, **Meta Business Suite → C
 ## Clipped so far
 
 <details>
-<summary>9 videos · 45 clips (click to expand)</summary>
+<summary>10 videos · 50 clips (click to expand)</summary>
 
 ### 01_Futuristic_Tech: "$1 vs $1,000,000,000 Futuristic Tech!" (with thumbnails)
 | # | Clip | Length |
@@ -258,6 +258,15 @@ Publish natively for full reach: **YouTube Studio**, **Meta Business Suite → C
 | 04 | 1.5-Inch Beam, 100 Ft Up | Simone Biles, $250K for foster kids |
 | 05 | 1v1 vs LeBron for $100K | Most 3s in 1 minute, decided by one shot |
 
+
+### 10_City_Save_Kids: "I Built A City To Save Kids From Illegal Labor"
+| # | Clip | Hook |
+|---|---|---|
+| 01 | From 2 Rooms to His Dream Home | A teacher's all-white house reveal |
+| 02 | A Kid Designed This Playground | Alfred's first swing ever |
+| 03 | Empty Field to Entire City | Same spot, one year later (the ribbon won't cut) |
+| 04 | 325 Kids, One Flooded School | 10 new classrooms + 5 years of free meals |
+| 05 | They Had No Clean Water | The well erupts → running water |
 
 </details>
 

@@ -12,6 +12,7 @@ Everything we have learned about turning long-form video into viral short clips.
 
 | Date | What changed |
 |---|---|
+| 2026-11-18 | Job 10: "I Built A City To Save Kids From Illegal Labor" (`v9QtM6qnG50`, 19 min), 5 clips (Isaac's dream home, kid-designed playground, field → city, 325-kid school, clean water) + 10 v2 thumbnails (stack, callout, vs, cinema, bignum) + kits with 13 hashtags each. `clip.py frames` sheet now works with an odd number of frames. Repo pushed to GitHub. |
 | 2026-11-18 | Hashtags 12–15 per post: YouTube (max 15), TikTok and Facebook (own caption in Create reel → *Customize for each platform*); Instagram stays at 5 (platform cap since Dec 2025); X 2, Snapchat 2. `kit.py` merges and checks the counts. Job 09 kit regenerated. |
 | 2026-11-18 | `export.py` loudness guard: prints LUFS/dBTP per clip, auto-limits true peak > −1 dBTP (oversampled limiter, video copied), warns when loudness is outside −16 to −13.5. |
 | 2026-11-18 | Job 9: "Beat Professional Athlete, Win $100,000" (`_c2e1NcI3Sc`, 22 min), 5 clips (Haaland, Alyssa Liu, Gordon Ramsay, Simone Biles, LeBron) + 10 v2 thumbnails (callout, stack, vs, cinema, bignum) + kits. Checked for duplicates first (no earlier job). |
@@ -231,6 +232,11 @@ python -I 5_TOOLS_AND_SCRIPTS/scripts/thumbs.py <recipe>/thumbs.json 4_EDITABLE_
 
 - Hashtag limits: YouTube ignores ALL hashtags on a video with more than 15 (first 3 show above the title). Instagram caps posts at 5 (reported Dec 2025). TikTok and Facebook have no hard cap, so use 12–15 there.
 
+- Job 10 (charity/build videos): the payoff is a reaction to a reveal, not a win, so open on the happiest line ("best day of my life") and rewind to the "before" (cramped room, flooded school). Every clip gets a clear before → after.
+- `counter` beats must be `"NUMBER|LABEL"` (e.g. `"10|NEW CLASSROOMS"`); plain text crashes `gen.py`.
+- Swing/action shots with a small subject: face-crop can land on legs. Split the segment and mark the action part `wide`.
+- rembg on a kid mid-motion with a busy crowd behind gives fragments; switch that clip to a style without a cutout (callout/cinema) instead of hunting frames.
+
 ## 11. Research backlog (next things to learn or test)
 - [ ] Money: test a $10–20 payout from Whop Content Rewards and Vyro to Pakistan before scaling; pick a second niche (Sports/Gaming/Tech, ~$1.4–2 per 1K views).
 - [ ] Hook A/B: post 2 hook variants as Instagram Trial Reels and log the winner in §12.
@@ -249,6 +255,7 @@ python -I 5_TOOLS_AND_SCRIPTS/scripts/thumbs.py <recipe>/thumbs.json 4_EDITABLE_
 - [ ] Real retention data from posted clips (fill in §12).
 - [x] Thumbnails for job 1 (Futuristic Tech) clips using `thumbs.py`.
 - [ ] Research how Shorts custom thumbnails and covers are shown in 2026 (feed vs channel grid crop), and A/B test thumbnail styles.
+- [ ] Compare charity/build-video clips (job 10) vs challenge clips (jobs 07–09): views and shares after 7 days.
 
 ## 12. Experiment log (fill in after posting)
 
