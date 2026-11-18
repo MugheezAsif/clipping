@@ -1,0 +1,5 @@
+[{"style":"bignum","l1":"LAST CHANCE","l2":"$5,000,000","tag":"SIT OR JUMP?","bg":"t1_bg.jpg","cut":"t1_x.jpg","pal":"green"},
+{"style":"callout","l1":"FRESH LEGS…","l2":"BIG MISTAKE","tag":"STRONG TEAM","bg":"t2_bg.jpg","pos":"42% 50%","at":[50,40],"r":210,"pal":"orange"},
+{"style":"cinema","l1":"DON'T TOUCH THE LINE","l2":"TOO LATE","tag":"ROUND 1","bg":"t3_bg.jpg","pos":"38% 50%","pal":"red"},
+{"style":"reveal","l1":"WAIT FOR IT","l2":"NO WAY","bg":"t4_bg.jpg","pos":"45% 50%","at":[45,49],"r":230,"cut":"t4_in.jpg","pal":"cyan"},
+{"style":"stack","l1":"HE'S BACK","l2":"OUT IN 1 GAME","tag":"THE ASSASSIN","bg":"t5_in.jpg","in":"t5_bg.jpg","pos":"70% 40%","inpos":"35% 60%","pal":"pink"}]

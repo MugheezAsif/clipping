@@ -1,0 +1,435 @@
+{
+ "c1_neuralink": {
+  "hook": [
+   "HE'S PARALYZED…",
+   "BUT TYPES WITH HIS *MIND*"
+  ],
+  "rewind": "⏪ HOW IS THIS POSSIBLE?",
+  "beats": [
+   [
+    5.5,
+    "sticker",
+    "🧠 NEURALINK • $10,000 CHIP",
+    "pop",
+    2.4
+   ],
+   [
+    13.5,
+    "sticker",
+    "PARALYZED FOR 8 YEARS",
+    "pop",
+    2.4
+   ],
+   [
+    20.0,
+    "emoji",
+    "💻",
+    "pop",
+    1.4
+   ],
+   [
+    23.3,
+    "sticker",
+    "📱 TEXT WITH HIS BRAIN?",
+    "pop",
+    2.0
+   ],
+   [
+    25.1,
+    "sticker",
+    "👀 HANDS NOT MOVING",
+    "boing",
+    3.0
+   ],
+   [
+    32.4,
+    "stamp",
+    "HE TYPED \"HI\" ✅",
+    "bass",
+    1.5
+   ],
+   [
+    35.5,
+    "sticker",
+    "🎮 GAMING WITH HIS MIND",
+    "pop",
+    2.6
+   ],
+   [
+    40.9,
+    "stamp",
+    "CRUSHED US 💀",
+    "impact",
+    1.6
+   ]
+  ],
+  "push": [
+   11.2,
+   25.1,
+   40.9
+  ],
+  "shake": [
+   32.4,
+   40.9
+  ],
+  "cta": "WOULD YOU GET A BRAIN CHIP? 👇",
+  "cta_t": 43.3
+ },
+ "c2_kai_arm": {
+  "hook": [
+   "HE HAD NO IDEA",
+   "WHO HIS *DOCTOR* WAS"
+  ],
+  "rewind": "⏪ 10 MINUTES EARLIER",
+  "beats": [
+   [
+    3.3,
+    "sticker",
+    "BORN WITHOUT AN ARM",
+    "pop",
+    2.0
+   ],
+   [
+    5.4,
+    "emoji",
+    "💔",
+    "pop",
+    1.2
+   ],
+   [
+    10.5,
+    "sticker",
+    "🎭 FAKE DOCTOR'S OFFICE",
+    "pop",
+    2.6
+   ],
+   [
+    14.35,
+    "counter",
+    "$25,000|BIONIC ARM",
+    "cash",
+    2.6
+   ],
+   [
+    18.6,
+    "sticker",
+    "👀 THE \"DOCTOR\" IS MRBEAST",
+    "boing",
+    2.8
+   ],
+   [
+    24.2,
+    "emoji",
+    "😱",
+    "pop",
+    1.2
+   ],
+   [
+    32.75,
+    "stamp",
+    "THE REAL ARM 🦾",
+    "bass",
+    1.8
+   ],
+   [
+    37.7,
+    "emoji",
+    "💪",
+    "pop",
+    1.2
+   ],
+   [
+    41.6,
+    "sticker",
+    "✅ IT ACTUALLY WORKS",
+    "pop",
+    2.2
+   ],
+   [
+    45.15,
+    "emoji",
+    "🤝",
+    "pop",
+    1.3
+   ]
+  ],
+  "push": [
+   14.35,
+   32.75,
+   48.35
+  ],
+  "shake": [
+   32.75
+  ],
+  "cta": "SEND THIS TO SOMEONE WHO NEEDS A SMILE ❤️",
+  "cta_t": 52.4
+ },
+ "c3_flying_car": {
+  "hook": [
+   "$1,000,000 RACE:",
+   "*FLYING* CAR vs NORMAL CAR"
+  ],
+  "rewind": "⏪ 5 MINUTES EARLIER",
+  "beats": [
+   [
+    7.2,
+    "counter",
+    "$1,000,000|ON THE LINE",
+    "cash",
+    2.4
+   ],
+   [
+    12.4,
+    "stamp",
+    "✈️ vs 🚗",
+    "whoosh",
+    1.4
+   ],
+   [
+    15.0,
+    "stamp",
+    "🏁 GO!",
+    "impact",
+    1.0
+   ],
+   [
+    20.9,
+    "sticker",
+    "🌊 INTO THE OCEAN?!",
+    "pop",
+    2.2
+   ],
+   [
+    23.75,
+    "stamp",
+    "CHEATING 😤",
+    "boing",
+    1.2
+   ],
+   [
+    28.0,
+    "sticker",
+    "🛑 HAS TO STOP AT STOP SIGNS",
+    "pop",
+    2.2
+   ],
+   [
+    31.9,
+    "sticker",
+    "😳 ALREADY HALFWAY THERE",
+    "pop",
+    2.0
+   ],
+   [
+    37.2,
+    "emoji",
+    "🏖️",
+    "pop",
+    1.2
+   ],
+   [
+    40.65,
+    "stamp",
+    "COOKED 💀",
+    "impact",
+    1.2
+   ],
+   [
+    42.8,
+    "sticker",
+    "🤔 THE LOOPHOLE",
+    "boing",
+    2.6
+   ],
+   [
+    48.6,
+    "stamp",
+    "WON BY 10 MINUTES",
+    "bass",
+    1.8
+   ]
+  ],
+  "push": [
+   7.2,
+   23.75,
+   48.6
+  ],
+  "shake": [
+   15.0,
+   48.6
+  ],
+  "cta": "WOULD YOU RIDE IN IT? ✈️👇",
+  "cta_t": 50.2
+ },
+ "c4_lab_chicken": {
+  "hook": [
+   "ONE WAS KILLED.",
+   "ONE WAS GROWN IN A *LAB*."
+  ],
+  "rewind": "⏪ CAN THEY TELL?",
+  "beats": [
+   [
+    4.75,
+    "sticker",
+    "🐔 FARM CHICKEN",
+    "pop",
+    2.2
+   ],
+   [
+    8.5,
+    "sticker",
+    "🧪 LAB-GROWN CHICKEN",
+    "pop",
+    2.2
+   ],
+   [
+    11.1,
+    "sticker",
+    "👨‍🍳 CHEF NICK DIGIOVANNI",
+    "pop",
+    2.0
+   ],
+   [
+    13.2,
+    "stamp",
+    "BLIND TASTE TEST 🙈",
+    "whoosh",
+    1.6
+   ],
+   [
+    18.15,
+    "sticker",
+    "BITE #1",
+    "pop",
+    1.4
+   ],
+   [
+    24.05,
+    "sticker",
+    "BITE #2",
+    "pop",
+    1.2
+   ],
+   [
+    25.4,
+    "emoji",
+    "🤯",
+    "pop",
+    1.3
+   ],
+   [
+    31.4,
+    "sticker",
+    "HIS GUESS: LAB-GROWN ❓",
+    "pop",
+    1.0
+   ],
+   [
+    32.45,
+    "stamp",
+    "❌ WRONG",
+    "bass",
+    1.4
+   ]
+  ],
+  "push": [
+   13.2,
+   25.4,
+   32.45
+  ],
+  "shake": [
+   32.45
+  ],
+  "cta": "WOULD YOU EAT LAB-GROWN CHICKEN? 👇",
+  "cta_t": 35.0
+ },
+ "c5_heat_shield": {
+  "hook": [
+   "*2,000°* BLOWTORCH",
+   "vs HIS BARE HAND"
+  ],
+  "rewind": "⏪ HOW IS THIS POSSIBLE?",
+  "beats": [
+   [
+    7.7,
+    "sticker",
+    "🌋 HOTTER THAN LAVA",
+    "pop",
+    2.2
+   ],
+   [
+    10.8,
+    "sticker",
+    "SPACEX HEAT SHIELD TILE",
+    "pop",
+    2.2
+   ],
+   [
+    12.85,
+    "emoji",
+    "🪶",
+    "pop",
+    1.0
+   ],
+   [
+    16.2,
+    "sticker",
+    "🔥 BLOWTORCH-PROOF?",
+    "pop",
+    2.2
+   ],
+   [
+    18.55,
+    "emoji",
+    "✋",
+    "pop",
+    1.3
+   ],
+   [
+    26.45,
+    "sticker",
+    "📝 NO WAIVER SIGNED 😬",
+    "boing",
+    2.4
+   ],
+   [
+    33.5,
+    "emoji",
+    "😰",
+    "pop",
+    1.3
+   ],
+   [
+    36.3,
+    "counter",
+    "2,000°F|ON HIS HAND",
+    "bass",
+    3.6
+   ],
+   [
+    40.1,
+    "sticker",
+    "😮 FEELS NOTHING",
+    "pop",
+    2.0
+   ],
+   [
+    43.0,
+    "stamp",
+    "⚠️ DON'T TOUCH IT",
+    "impact",
+    1.8
+   ]
+  ],
+  "push": [
+   16.2,
+   38.4,
+   43.0
+  ],
+  "shake": [
+   38.4
+  ],
+  "cta": "WOULD YOU TRUST IT? 🔥👇",
+  "cta_t": 45.4
+ }
+}

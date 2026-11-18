@@ -1,0 +1,5 @@
+[{"style":"sticker","l1":"THEY CAN'T SEE","l2":"LEFT!!","tag":"60 SECONDS","bg":"t1_bg.jpg","cut":"t1_x.jpg","pal":"orange"},
+{"style":"callout","l1":"DAY 64","l2":"NEW SHOPPING CART","tag":"INSIDE THE STORE","bg":"t2_in.jpg","pos":"19% 50%","at":[50,62],"ath":[29,63],"r":220,"pal":"red"},
+{"style":"reveal","l1":"202 DAYS LATER…","l2":"SHE SAID?","bg":"t3_in.jpg","pos":"52% 50%","at":[61,50],"ath":[55,50],"r":200,"pal":"pink"},
+{"style":"cinema","l1":"THE FINAL MEAL","l2":"DONE","tag":"DAY 202","bg":"t4_in.jpg","pos":"45% 50%","pal":"yellow"},
+{"style":"bignum","l1":"CALORIES WASTED","l2":"6,614","tag":"OUT OF 4.3 MILLION","bg":"t5_bg.jpg","cut":"t4_in.jpg","pal":"cyan"}]

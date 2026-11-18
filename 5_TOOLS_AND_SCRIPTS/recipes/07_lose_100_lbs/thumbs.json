@@ -1,0 +1,5 @@
+[{"style":"bignum","l1":"HANGING 100 FT UP","l2":"$60,000","tag":"6 SEC → 60 SEC","bg":"t1_bg.jpg","cut":"a4.jpg","pal":"green"},
+{"style":"callout","l1":"HE KEPT GOING…","l2":"31 IN A ROW","tag":"PRIZE POOL","bg":"t2_bg.jpg","pos":"47% 50%","at":[63,66],"ath":[52,66],"r":150,"pal":"yellow"},
+{"style":"sticker","l1":"DON'T DROP IT","l2":"$40K","tag":"1 BILL = $0","bg":"t3_bg.jpg","cut":"a5.jpg","pal":"red"},
+{"style":"cinema","l1":"A LIFELONG DREAM","l2":"FINALLY","tag":"DAY 161","bg":"t4_bg.jpg","pos":"45% 50%","pal":"orange"},
+{"style":"stack","l1":"DAY 1 VIDEO","l2":"DAY 178","tag":"-102 LBS","bg":"t5_bg.jpg","in":"t5_in.jpg","pos":"45% 50%","inpos":"50% 40%","pal":"cyan"}]

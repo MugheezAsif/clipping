@@ -1,0 +1,252 @@
+[
+ {
+  "l1": "HE'S PARALYZED",
+  "l2": "TYPES WITH HIS MIND",
+  "badge": "$10,000 CHIP",
+  "bg": "t1_bg.jpg",
+  "in": "t1_in.jpg",
+  "inpos": "50% 40%",
+  "v": {
+   "bgpos": "62% 50%",
+   "head": [
+    20,
+    190
+   ],
+   "inset": [
+    600,
+    1270
+   ],
+   "arrow": [
+    300,
+    1090,
+    -150
+   ],
+   "badge": [
+    50,
+    1380
+   ],
+   "top": 470
+  },
+  "h": {
+   "bgpos": "50% 45%",
+   "head": [
+    24,
+    40
+   ],
+   "align": "left",
+   "inset": [
+    940,
+    30
+   ],
+   "arrow": [
+    740,
+    260,
+    160
+   ],
+   "badge": [
+    40,
+    560
+   ]
+  }
+ },
+ {
+  "l1": "BORN WITHOUT",
+  "l2": "AN ARM",
+  "badge": "$25,000 ARM",
+  "bg": "t2_bg.jpg",
+  "in": "t2_in.jpg",
+  "inpos": "50% 40%",
+  "v": {
+   "bgpos": "28% 50%",
+   "head": [
+    20,
+    190
+   ],
+   "inset": [
+    600,
+    1270
+   ],
+   "arrow": [
+    300,
+    1090,
+    -150
+   ],
+   "badge": [
+    50,
+    1380
+   ],
+   "top": 470
+  },
+  "h": {
+   "bgpos": "50% 45%",
+   "head": [
+    24,
+    40
+   ],
+   "align": "left",
+   "inset": [
+    940,
+    30
+   ],
+   "arrow": [
+    740,
+    260,
+    160
+   ],
+   "badge": [
+    40,
+    560
+   ]
+  }
+ },
+ {
+  "l1": "FLYING CAR",
+  "l2": "vs NORMAL CAR",
+  "badge": "$1,000,000",
+  "bg": "t3_bg.jpg",
+  "in": "t3_in.jpg",
+  "inpos": "45% 50%",
+  "v": {
+   "bgpos": "42% 50%",
+   "head": [
+    20,
+    190
+   ],
+   "inset": [
+    600,
+    1270
+   ],
+   "arrow": [
+    300,
+    1090,
+    -150
+   ],
+   "badge": [
+    50,
+    1380
+   ],
+   "top": 470
+  },
+  "h": {
+   "bgpos": "50% 50%",
+   "head": [
+    24,
+    40
+   ],
+   "align": "left",
+   "inset": [
+    940,
+    30
+   ],
+   "arrow": [
+    740,
+    260,
+    160
+   ],
+   "badge": [
+    40,
+    560
+   ]
+  }
+ },
+ {
+  "l1": "ONE WAS KILLED",
+  "l2": "ONE WAS GROWN",
+  "badge": "LAB CHICKEN",
+  "bg": "t4_bg.jpg",
+  "in": "t4_in.jpg",
+  "inpos": "45% 40%",
+  "v": {
+   "bgpos": "50% 50%",
+   "head": [
+    20,
+    190
+   ],
+   "inset": [
+    600,
+    1270
+   ],
+   "arrow": [
+    300,
+    1090,
+    -150
+   ],
+   "badge": [
+    50,
+    1380
+   ],
+   "top": 470
+  },
+  "h": {
+   "bgpos": "50% 40%",
+   "head": [
+    24,
+    40
+   ],
+   "align": "left",
+   "inset": [
+    940,
+    30
+   ],
+   "arrow": [
+    740,
+    260,
+    160
+   ],
+   "badge": [
+    40,
+    560
+   ]
+  }
+ },
+ {
+  "l1": "2,000° BLOWTORCH",
+  "l2": "vs BARE HAND",
+  "badge": "SPACEX TILE",
+  "bg": "t5_bg.jpg",
+  "in": "t5_in.jpg",
+  "inpos": "40% 40%",
+  "v": {
+   "bgpos": "50% 50%",
+   "head": [
+    20,
+    190
+   ],
+   "inset": [
+    600,
+    1270
+   ],
+   "arrow": [
+    300,
+    1090,
+    -150
+   ],
+   "badge": [
+    50,
+    1380
+   ],
+   "top": 470
+  },
+  "h": {
+   "bgpos": "50% 45%",
+   "head": [
+    24,
+    40
+   ],
+   "align": "left",
+   "inset": [
+    940,
+    30
+   ],
+   "arrow": [
+    740,
+    260,
+    160
+   ],
+   "badge": [
+    40,
+    560
+   ]
+  }
+ }
+]

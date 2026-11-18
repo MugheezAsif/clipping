@@ -1,0 +1,39 @@
+{
+ "c1_one_dollar_camel": {
+  "hook": ["THE $1", "*CAMEL* RIDE 🐪"], "rewind": "⏪ 10 SECONDS EARLIER",
+  "beats": [[6.7, "counter", "$1|= 2 MINUTES", "cash", 2.2], [11.7, "sticker", "⚠️ HOLD ON TIGHT?!", "pop", 1.6],
+            [13.9, "stamp", "WHOA 😱", "impact", 1.2], [17.3, "sticker", "🇪🇬 EGYPT WAS TOO EXPENSIVE", "pop", 1.8],
+            [19.2, "stamp", "PYRAMIDS ADDED IN POST 😂", "boing", 1.4], [23.0, "emoji", "💪", "pop", 1.0]],
+  "push": [13.9, 19.2], "shake": [13.9], "cta": "$1 CAMEL OR $500K SKYDIVE? 👇", "cta_t": 24.3},
+ "c2_elephant_charge": {
+  "hook": ["WE GOT CHARGED", "BY AN *ELEPHANT* 🐘"], "rewind": "⏪ 1 MINUTE EARLIER",
+  "beats": [[8.0, "sticker", "🦁 MISSION: FIND A LION", "pop", 1.6], [10.1, "emoji", "👀", "pop", 1.0],
+            [13.3, "stamp", "YOU SCARED HIM 😭", "boing", 1.4], [18.0, "sticker", "🦓 \"ZEBRAS WOULD TASTE GOOD\"", "pop", 2.2],
+            [25.3, "counter", "$50,000|SAFARI", "cash", 2.4], [30.3, "sticker", "🐘🐘 RIGHT BEHIND YOU", "pop", 1.4],
+            [32.4, "emoji", "😳", "pop", 1.2], [35.5, "stamp", "IT'S CHARGING!", "impact", 1.4],
+            [42.5, "sticker", "THAT THING IS A UNIT 💀", "pop", 1.3]],
+  "push": [13.3, 35.5], "shake": [35.5], "cta": "SAFARI OR SUBMARINE? 👇", "cta_t": 43.9},
+ "c3_lambo_giveaway": {
+  "hook": ["HE GAVE A STRANGER", "A *LAMBORGHINI* 😳"], "rewind": "⏪ 30 SECONDS EARLIER",
+  "beats": [[5.9, "sticker", "🏎️ BRAND NEW LAMBORGHINI", "pop", 1.3], [8.1, "emoji", "💨", "pop", 1.0],
+            [12.8, "sticker", "🅿️ NO PARKING SPOT", "pop", 1.8], [17.6, "sticker", "👕 SHIRT SAYS \"SUBSCRIBE\"", "pop", 1.3],
+            [22.4, "stamp", "HE SAID NO?! 🤯", "bass", 1.6], [27.7, "sticker", "✅ SUBSCRIBED", "pop", 1.6],
+            [31.8, "stamp", "IT'S YOURS 🔑", "impact", 1.4], [33.4, "emoji", "😭", "pop", 1.0]],
+  "push": [22.4, 31.8], "shake": [22.4], "cta": "WOULD YOU HAVE SAID NO? 👇", "cta_t": 34.7},
+ "c4_skydive_biggest_fear": {
+  "hook": ["FACING HIS", "BIGGEST *FEAR* 😨"], "rewind": "⏪ 5 MINUTES EARLIER",
+  "beats": [[9.5, "sticker", "WHO DOES THIS WILLINGLY?", "pop", 1.8], [12.3, "sticker", "😨 HIS BIGGEST FEAR", "pop", 2.0],
+            [16.2, "emoji", "💀", "pop", 0.8], [20.9, "stamp", "\"I HATE YOU\" 😂", "boing", 0.8],
+            [25.0, "counter", "10,000 FT|ABOVE DUBAI", "bass", 2.4], [30.0, "sticker", "🌀 SPINNING", "pop", 1.4],
+            [35.0, "sticker", "🌴 OVER THE PALM ISLAND", "pop", 2.2], [41.7, "sticker", "STILL SCARED 😰", "pop", 1.6],
+            [44.5, "stamp", "I'M ALIVE 🙌", "impact", 1.4], [48.2, "sticker", "WAIT… WHERE'S CHANDLER? 🤔", "pop", 2.4]],
+  "push": [25.0, 44.5], "shake": [25.0], "cta": "WOULD YOU JUMP? 🪂👇", "cta_t": 51.0},
+ "c5_burj_khalifa_top": {
+  "hook": ["ON TOP OF THE", "*TALLEST* BUILDING 😱"], "rewind": "⏪ 1 HOUR EARLIER",
+  "beats": [[6.3, "counter", "2,700 FT|BURJ KHALIFA", "bass", 2.4], [13.3, "sticker", "🛗 160 STORIES OF ELEVATORS", "pop", 1.6],
+            [16.1, "counter", "900 FT|OF LADDERS", "pop", 2.2], [24.9, "sticker", "⏱️ 1 HOUR OF CLIMBING", "pop", 2.0],
+            [29.1, "emoji", "😮‍💨", "pop", 1.2], [36.4, "stamp", "NOT ALMOST THERE 💀", "boing", 0.9],
+            [37.6, "sticker", "🏁 HOME STRETCH", "pop", 1.8], [42.6, "stamp", "HE MADE IT 🙌", "impact", 0.9],
+            [44.3, "emoji", "😨", "pop", 1.2]],
+  "push": [6.3, 42.6], "shake": [42.6], "cta": "WOULD YOU CLIMB IT? 👇", "cta_t": 49.0}
+}

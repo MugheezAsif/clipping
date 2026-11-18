@@ -1,0 +1,9 @@
+# Install into ~/.clipping/env (python -m venv ~/.clipping/env)
+# GPU: install torch for your CUDA first, e.g. pip install torch --index-url https://download.pytorch.org/whl/cu128
+faster-whisper
+opencv-python
+mediapipe
+numpy
+pillow
+rembg[cpu]
+yt-dlp

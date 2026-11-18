@@ -1,0 +1,44 @@
+{
+ "c1_one_dollar_bunker": {
+  "hook": ["$1 BUNKER", "vs A *BOMB* 💣"], "rewind": "⏪ 30 SECONDS EARLIER",
+  "beats": [[4.4, "counter", "$1|BUNKER", "cash", 2.2], [9.5, "sticker", "💧 IT'S WET…", "pop", 2.0],
+            [12.8, "stamp", "TOUR OVER 😂", "boing", 1.2], [14.65, "sticker", "📦 JUST A SHIPPING CONTAINER", "pop", 2.4],
+            [22.55, "emoji", "💀", "pop", 1.2], [24.3, "sticker", "WILL IT SURVIVE A BOMB? 🤔", "pop", 1.8],
+            [26.1, "sticker", "💣 DROP IT", "pop", 1.6], [28.4, "emoji", "😳", "pop", 1.1],
+            [29.75, "stamp", "💥 BOOM", "bass", 1.6]],
+  "push": [14.65, 24.3, 29.7], "shake": [29.7], "cta": "WOULD YOU HIDE IN IT? 👇", "cta_t": 31.6},
+ "c2_iron_man_bunker": {
+  "hook": ["HE BUILT A REAL", "*IRON MAN* BUNKER"], "rewind": "⏪ HOW DID WE GET HERE?",
+  "beats": [[6.5, "counter", "$3,000,000|BACKYARD BUNKER", "cash", 2.4], [12.4, "sticker", "🔥 BACKPACK FLAMETHROWER", "pop", 2.0],
+            [14.5, "stamp", "REAL LIFE TONY STARK", "impact", 1.8], [16.9, "sticker", "🚀 WRIST ROCKET LAUNCHER", "pop", 2.4],
+            [20.7, "sticker", "🔫 + 🪚 = ???", "boing", 1.4], [24.95, "sticker", "⚠️ DON'T ROB THIS GUY", "pop", 2.0],
+            [27.0, "emoji", "😰", "pop", 1.2], [31.65, "stamp", "🔥🔥🔥", "impact", 1.4],
+            [37.6, "sticker", "HE'LL BURN THE BUNKER DOWN 💀", "pop", 2.2], [42.35, "sticker", "🔪 SPINNING BELT OF KNIVES", "pop", 1.8],
+            [45.2, "stamp", "WOAH WOAH WOAH", "bass", 1.6], [49.5, "sticker", "EVER HAD ONE FALL OFF? 😬", "pop", 2.0]],
+  "push": [6.5, 31.65, 45.2], "shake": [31.65, 45.2], "cta": "WOULD YOU TRUST THIS GUY? 👇", "cta_t": 52.6},
+ "c3_jfk_bunker": {
+  "hook": ["JFK'S $5,000,000", "SECRET *BUNKER*"], "rewind": "⏪ LET'S GO INSIDE",
+  "beats": [[4.2, "counter", "$5,000,000|PRESIDENTIAL BUNKER", "cash", 1.7], [6.3, "sticker", "🏝️ ISLAND PARADISE?", "pop", 2.4],
+            [11.5, "sticker", "📅 BUILT IN 1961", "pop", 2.4], [16.8, "stamp", "FOR JFK 🇺🇸", "impact", 1.6],
+            [20.55, "emoji", "🤨", "pop", 1.3], [24.25, "stamp", "IT'S A DUMP 🗑️", "boing", 1.4],
+            [25.8, "sticker", "🚽 PRESIDENTIAL BATHROOM", "pop", 1.4], [27.25, "emoji", "💸", "pop", 1.1],
+            [29.75, "sticker", "JFK WOULD BE UPSET 😂", "pop", 2.0]],
+  "push": [16.8, 24.25], "shake": [16.8], "cta": "WOULD YOU SURVIVE IN HERE? 👇", "cta_t": 32.0},
+ "c4_secret_50m_bunker": {
+  "hook": ["$50,000,000 BUNKER", "UNDER A *NORMAL* HOUSE"], "rewind": "⏪ HOW WE GOT DOWN HERE",
+  "beats": [[4.4, "counter", "$50,000,000|SECRET BUNKER", "cash", 2.6], [8.5, "sticker", "🔐 SECRET ELEVATOR CODE", "pop", 2.4],
+            [12.8, "stamp", "1… 2… 3…", "pop", 1.4], [18.1, "sticker", "⬇️ 3 STORIES UNDERGROUND", "pop", 1.0],
+            [19.25, "emoji", "🤯", "pop", 1.3], [25.45, "sticker", "IT DOESN'T FEEL LIKE A BUNKER", "pop", 1.5],
+            [27.55, "emoji", "🎄", "pop", 1.3], [33.05, "sticker", "📏 BUILT BY A 5 FT GUY", "boing", 2.6],
+            [41.2, "sticker", "🥤 FREE DIET COKE?", "pop", 2.2], [48.2, "stamp", "EXPIRED 2 YEARS AGO 🤢", "bass", 1.0]],
+  "push": [12.8, 19.25, 48.2], "shake": [48.2], "cta": "$50M BUNKER: YES OR NO? 👇", "cta_t": 49.3},
+ "c5_dont_touch_anything": {
+  "hook": ["HE TOUCHED A BUTTON IN", "A *TOP SECRET* BUNKER"], "rewind": "⏪ 2 MINUTES EARLIER",
+  "beats": [[6.6, "counter", "$1,000,000,000|SPACE FORCE BUNKER", "cash", 2.6], [12.5, "emoji", "👽", "pop", 1.2],
+            [17.2, "stamp", "\"DON'T TOUCH ANYTHING\"", "impact", 1.8], [20.65, "sticker", "🎖️ GENERAL DRAKE", "pop", 2.2],
+            [23.9, "stamp", "HE TOUCHED IT 😳", "bass", 1.6], [27.9, "sticker", "TOLD 30 TIMES NOT TO 🤦", "pop", 2.2],
+            [31.6, "stamp", "🚨 ARRESTED?!", "impact", 1.6], [36.8, "sticker", "GETTING KICKED OUT 💀", "pop", 2.2],
+            [40.8, "stamp", "🚀 MISSILE BUTTONS?", "bass", 1.6], [46.05, "sticker", "👽 ANY UFOs?", "pop", 1.2],
+            [47.35, "stamp", "\"POSSIBLY.\"", "impact", 1.6]],
+  "push": [17.2, 23.9, 31.6, 47.35], "shake": [23.9, 31.6], "cta": "WOULD YOU HAVE TOUCHED IT? 👇", "cta_t": 49.2}
+}
