@@ -44,3 +44,15 @@ Hook lines: ≤6 words, outcome first, one yellow keyword. Write 3 variants per 
 - Thumbnail text is 1–4 words that ADD info to the title (never repeat it). Image + thumbnail text + title = 3 different pieces of the story.
 - Cut-outs: `"cut":"tN_x.jpg"` (people: default model; objects: `"cutm":"isnet-general-use"`). Pick frames with a clear face/pose and a clean background.
 - Rotate palettes (`yellow red cyan green pink orange`) so the channel grid looks varied; match colour to emotion (green money, red danger, cyan wow, pink drama).
+
+## Rights (check before clipping: blocked clips earn nothing)
+| `--rights` | Means | Post? |
+|---|---|---|
+| `campaign:<url>` | An active Vyro / Whop Content Rewards campaign lists **this exact video** | Yes, then submit links |
+| `permission:<proof>` | Written OK from the creator (email/DM screenshot saved) | Yes |
+| `open:<policy url>` | The creator publicly allows clipping (stated policy) | Yes, follow their rules |
+| `unlicensed` (default) | None of the above | Expect claims/blocks: prefer finding a campaign or another video |
+- Order of choice for the next video: 1) a live campaign with budget left, 2) a creator who allows clipping, 3) unlicensed only as a portfolio test.
+- Claimed or blocked: check *who* claimed in YouTube Studio → Copyright. Music → *Erase song* / *Trim*. Creator's footage → accept (no strike), drop it from the schedule. Dispute only with a license.
+- Never: mirror/flip, pitch-shift, zoom-crop or remove watermarks to dodge matching, or re-upload a blocked clip. That's evasion and leads to strikes and termination.
+- Keep clips ≤58 s, add our own hook, captions, graphics and structure (originality for IG/TikTok reach), credit the creator.

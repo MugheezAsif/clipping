@@ -173,5 +173,10 @@ mrbeast, mr beast, clean water, water well, well drilling, ghana, solar power, r
 
 ---
 
+## Rights: `unlicensed`
+- **Unlicensed.** MrBeast's Content ID will match this footage: expect claims (revenue goes to them) or blocks. Before posting, look for an active campaign for this video (Vyro, Whop Content Rewards) and re-run `clip.py new … --rights campaign:<url>`.
+- If a clip is **claimed or blocked**: open YouTube Studio → Content → *Copyright*, see who claimed it. Music claim → use Studio's *Erase song* or *Trim*. Footage claim by the creator → accept it (no strike); don't dispute without a license (false disputes can turn into strikes). Remove blocked clips from the schedule.
+- Never re-upload a blocked clip with tricks (mirroring, pitch, zoom, cropping out watermarks): that is evasion and risks strikes and channel termination.
+
 **Upload settings:** not made for kids · Entertainment · pin your comment right after posting.
 Copyright: this is MrBeast's footage. Posting outside MrBeast's official clipping program can get a clip claimed or demonetized.

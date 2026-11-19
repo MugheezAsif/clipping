@@ -276,4 +276,11 @@ To keep the repo small and safe, `.gitignore` leaves out finished clips and thum
 
 ## Copyright
 
-The scripts, rules, research and brand assets are this project's own work. Clipped footage belongs to its creators (so far, MrBeast). Clips posted outside a creator's official clipping program can be claimed or demonetized. Every posting kit includes a credit line to the original video.
+The scripts, rules, research and brand assets are this project's own work. Clipped footage belongs to its creators (so far, MrBeast).
+
+**Rights gate.** Editing doesn't stop Content ID; only a license does. Every job records its rights status (`clip.py new … --rights campaign:<url> | permission:<proof> | open:<policy url>`, default `unlicensed`):
+- Licensed jobs (an active Vyro / Whop Content Rewards campaign for that exact video, or written permission) are posted and submitted to the campaign.
+- Unlicensed jobs get a warning from `kit.py`, and every kit includes a claim/block playbook: check the claimant in YouTube Studio, use *Erase song*/*Trim* for music claims, accept footage claims, and dispute only with a license.
+- No evasion edits (mirroring, pitch-shifting, zoom-cropping, watermark removal), ever. Details in `5_TOOLS_AND_SCRIPTS/RUBRIC.md` (Rights) and `2_RESEARCH_AND_KNOWLEDGE/research_notes/copyright_and_content_id.md`.
+
+Every posting kit includes a credit line to the original video.

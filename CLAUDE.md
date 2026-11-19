@@ -11,7 +11,8 @@ Purpose: turn long videos into viral Shorts/Reels/TikToks (clips + thumbnails + 
 - Skip HyperFrames structure warnings; act on errors only.
 
 ## Workflow (one video = one `NN_Name`)
-1. `python clip.py new <url> NN_Name [--cookies cookies.txt]` → captions (or GPU Whisper) + ranked `candidates.txt`.
+0. **Rights gate (RUBRIC: Rights):** before clipping, check for an active campaign (Vyro, Whop Content Rewards) for that exact video or written permission. Unlicensed footage gets Content ID claims/blocks; say so to the user before starting. Never suggest evasion edits (mirroring, pitch, zoom-crop, watermark removal).
+1. `python clip.py new <url> NN_Name [--rights campaign:<url>|permission:<proof>|open:<url>] [--cookies cookies.txt]` → captions (or GPU Whisper) + ranked `candidates.txt`.
 2. Pick clips with `5_TOOLS_AND_SCRIPTS/RUBRIC.md` (score ≥18/25, 30–45 s, setup + reaction inside). Check visual payoffs with `clip.py sheet NN t:dur …`.
 3. Write `edits.json` (cold open first), `settings.json` `{"layout":"auto"}` (face crop per shot; add `"tighten":true` for podcasts/streams), `names.json`, `spec.json` (copy the latest recipe as a template).
 4. `clip.py build NN` → review the sheet → fix → `clip.py render NN` (background; it also runs the export guard).

@@ -98,3 +98,8 @@ They Had No Clean Water 💧 #mrbeast #cleanwater
 ```
 
 ---
+
+## Rights: `unlicensed`
+- **Unlicensed.** MrBeast's Content ID will match this footage: expect claims (revenue goes to them) or blocks. Before posting, look for an active campaign for this video (Vyro, Whop Content Rewards) and re-run `clip.py new … --rights campaign:<url>`.
+- If a clip is **claimed or blocked**: open YouTube Studio → Content → *Copyright*, see who claimed it. Music claim → use Studio's *Erase song* or *Trim*. Footage claim by the creator → accept it (no strike); don't dispute without a license (false disputes can turn into strikes). Remove blocked clips from the schedule.
+- Never re-upload a blocked clip with tricks (mirroring, pitch, zoom, cropping out watermarks): that is evasion and risks strikes and channel termination.

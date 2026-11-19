@@ -12,6 +12,7 @@ Everything we have learned about turning long-form video into viral short clips.
 
 | Date | What changed |
 |---|---|
+| 2026-11-19 | Copyright strategy: rights gate. `clip.py new --rights` stores campaign/permission/open/unlicensed in `source.json`; `kit.py` warns on unlicensed and adds a claim/block playbook to every kit; RUBRIC: Rights; research in `research_notes/copyright_and_content_id.md`. |
 | 2026-11-18 | Job 10: "I Built A City To Save Kids From Illegal Labor" (`v9QtM6qnG50`, 19 min), 5 clips (Isaac's dream home, kid-designed playground, field → city, 325-kid school, clean water) + 10 v2 thumbnails (stack, callout, vs, cinema, bignum) + kits with 13 hashtags each. `clip.py frames` sheet now works with an odd number of frames. Repo pushed to GitHub. |
 | 2026-11-18 | Hashtags 12–15 per post: YouTube (max 15), TikTok and Facebook (own caption in Create reel → *Customize for each platform*); Instagram stays at 5 (platform cap since Dec 2025); X 2, Snapchat 2. `kit.py` merges and checks the counts. Job 09 kit regenerated. |
 | 2026-11-18 | `export.py` loudness guard: prints LUFS/dBTP per clip, auto-limits true peak > −1 dBTP (oversampled limiter, video copied), warns when loudness is outside −16 to −13.5. |
@@ -154,6 +155,7 @@ Length by moment type: reveals 20–35 s · challenges 30–50 s · reactions an
 - **Clipping (agency):** $300–1,500 per 1M views, 23,300 clippers. **N3on:** $1.4M to 303 clippers in 5 weeks. [J]
 - **Workflow:** score 5–15 candidate moments per source, post the best 3–5, make a distinct variant per account, spend under ~15 min per clip, post 3–5 a day. It's "like fishing". [V][J]
 - **Common rejections:** missed brief details, missing ad disclosure, reusing an edit across campaigns, submitting >30 min after posting, botted views. [P marketplace rules]
+- **Copyright (2026-11-19):** no edit makes another creator's footage safe from Content ID; only a license (campaign for that exact video, or written permission) stops claims/blocks. Claims aren't strikes; disputes need a license or real fair use. See `research_notes/copyright_and_content_id.md`. [P]
 - **Rights:** official programs grant a narrow, revocable license. Unofficial clipping relies on weak fair use and risks Content ID claims, strikes and demotion. [J][P]
 
 ## 9. Our pipeline (how we actually do it)
@@ -237,6 +239,8 @@ python -I 5_TOOLS_AND_SCRIPTS/scripts/thumbs.py <recipe>/thumbs.json 4_EDITABLE_
 - Swing/action shots with a small subject: face-crop can land on legs. Split the segment and mark the action part `wide`.
 - rembg on a kid mid-motion with a busy crowd behind gives fragments; switch that clip to a style without a cutout (callout/cinema) instead of hunting frames.
 
+- Some posted clips (jobs 01–10, all unlicensed MrBeast) got blocked. Lesson: licensing, not editing, decides whether a clip stays up. Check for a campaign before choosing the video.
+
 ## 11. Research backlog (next things to learn or test)
 - [ ] Money: test a $10–20 payout from Whop Content Rewards and Vyro to Pakistan before scaling; pick a second niche (Sports/Gaming/Tech, ~$1.4–2 per 1K views).
 - [ ] Hook A/B: post 2 hook variants as Instagram Trial Reels and log the winner in §12.
@@ -256,6 +260,9 @@ python -I 5_TOOLS_AND_SCRIPTS/scripts/thumbs.py <recipe>/thumbs.json 4_EDITABLE_
 - [x] Thumbnails for job 1 (Futuristic Tech) clips using `thumbs.py`.
 - [ ] Research how Shorts custom thumbnails and covers are shown in 2026 (feed vs channel grid crop), and A/B test thumbnail styles.
 - [ ] Compare charity/build-video clips (job 10) vs challenge clips (jobs 07–09): views and shares after 7 days.
+- [ ] Ask Vyro/Whop support whether approved clips are allowlisted in the creator's Content ID (or still claimed).
+- [ ] Build a list of 5–10 creators with public clipping permission or live campaigns outside MrBeast.
+- [ ] Log every claim/block in §12: platform, clip, claimant, block vs monetize.
 
 ## 12. Experiment log (fill in after posting)
 

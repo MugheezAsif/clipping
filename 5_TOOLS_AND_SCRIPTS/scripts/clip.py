@@ -1,6 +1,7 @@
 """One-command clipping pipeline. Every stage prints only a few lines (token-efficient).
 
-  python clip.py new <url> <NN_Name> [--cookies cookies.txt]   download + captions/ASR + ranked candidates
+  python clip.py new <url> <NN_Name> [--rights campaign:<url>|permission:<proof>|open:<policy url>] [--cookies cookies.txt]
+                                                                download + captions/ASR + ranked candidates (rights default: unlicensed)
   python clip.py sheet <NN_Name> <t:dur> [...]                  1 contact sheet of source moments (check visual payoffs)
   python clip.py build <NN_Name>                                plates (auto reframe) + graphics + check + 1 snapshot sheet
   python clip.py render <NN_Name>                               render every clip to 1_READY_TO_POST/NN_Name/clips (slow: run in background)
@@ -67,7 +68,10 @@ def cmd_new(url, nn, *rest):
     video = os.path.join(c, "video.mp4")
     if not os.path.exists(video):
         run(base[:-1] + ["-f", "bv*[height<=1080][ext=mp4]+ba[ext=m4a]/b[height<=1080]", "--merge-output-format", "mp4", "-o", "video.%(ext)s", url])
-    json.dump({"url": url, "id": vid, "title": title, "channel": channel, "video": video}, open(os.path.join(rec, "source.json"), "w"), indent=1)
+    # rights gate: campaign:<url> | permission:<proof> | open:<policy url> | unlicensed (see RUBRIC: Rights)
+    rights = rest[rest.index("--rights") + 1] if "--rights" in rest else "unlicensed"
+    json.dump({"url": url, "id": vid, "title": title, "channel": channel, "video": video, "rights": rights},
+              open(os.path.join(rec, "source.json"), "w"), indent=1)
     words = os.path.join(rec, "words.json")
     subs = sorted(glob.glob(os.path.join(c, "*.en-orig.json3")) + glob.glob(os.path.join(c, "*.en.json3")))
     if subs:
@@ -77,7 +81,9 @@ def cmd_new(url, nn, *rest):
         r = run([VENV_PY, os.path.join(SCR, "asr.py"), video, words]); how = "whisper: " + r.stdout.strip()[-80:]
     out = py("candidates.py", words, "--video", video, "--top", "15")
     open(os.path.join(rec, "candidates.txt"), "w", encoding="utf-8").write(out)
-    print(f"{title} | {channel} | {int(float(dur)) // 60} min | transcript: {how}\nrecipe: {rec}\n{out}")
+    warn = "" if rights.split(":")[0] in ("campaign", "permission", "open") else \
+        "\nRIGHTS: unlicensed -> expect Content ID claims/blocks. Find an active campaign (Vyro/Whop) for this video or get written permission first; re-run with --rights campaign:<url>."
+    print(f"{title} | {channel} | {int(float(dur)) // 60} min | transcript: {how} | rights: {rights}{warn}\nrecipe: {rec}\n{out}")
 
 
 def cmd_sheet(nn, *items):

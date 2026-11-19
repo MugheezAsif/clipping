@@ -86,6 +86,15 @@ if camp:
            "- [ ] Post from the verified, connected account, then submit the link within 30 min; screenshot the analytics",
            *[f"- [ ] {r}" for r in camp.get("rules", [])]]
     yt += chk; ig += chk; tx += chk
+SRC = json.load(open(os.path.join(R, "source.json"), encoding="utf-8")) if os.path.exists(os.path.join(R, "source.json")) else {}
+RIGHTS = SRC.get("rights", "unlicensed")
+ok = RIGHTS.split(":")[0] in ("campaign", "permission", "open")
+rk = [f"\n## Rights: `{RIGHTS}`",
+      "- Licensed: post, then submit the links to the campaign within its deadline. Keep the proof (campaign page or written permission) in `source.json`." if ok else
+      f"- **Unlicensed.** {V['creator']}'s Content ID will match this footage: expect claims (revenue goes to them) or blocks. Before posting, look for an active campaign for this video (Vyro, Whop Content Rewards) and re-run `clip.py new … --rights campaign:<url>`.",
+      "- If a clip is **claimed or blocked**: open YouTube Studio → Content → *Copyright*, see who claimed it. Music claim → use Studio's *Erase song* or *Trim*. Footage claim by the creator → accept it (no strike); don't dispute without a license (false disputes can turn into strikes). Remove blocked clips from the schedule.",
+      "- Never re-upload a blocked clip with tricks (mirroring, pitch, zoom, cropping out watermarks): that is evasion and risks strikes and channel termination."]
+yt += rk; ig += rk; tx += rk
 yt += ["", f"**Upload settings:** not made for kids · Entertainment · pin your comment right after posting.", SAFE.format(c=V["creator"])]
 for name, lines in (("YOUTUBE_CAPTIONS.md", yt), ("INSTAGRAM_CAPTIONS.md", ig), ("TIKTOK_X_SNAP_CAPTIONS.md", tx)):
     open(os.path.join(OUT, name), "w", encoding="utf-8").write("\n".join(lines) + "\n")
@@ -116,3 +125,4 @@ for i, c in enumerate(C["clips"]):
     if len(big(c)) < 12: warn.append(f"{i+1:02d} only {len(big(c))} hashtags for YT/TikTok/FB (aim 12-15)")
     if len({t.split()[0].lower() for t in c["titles"]}) < 3: warn.append(f"{i+1:02d} titles start the same way: use 3 different formulas")
 print("kit written:", OUT); print("copy check:", "OK" if not warn else "; ".join(warn))
+print("rights:", RIGHTS, "" if ok else "-> WARN unlicensed: expect Content ID claims/blocks; find a campaign or permission before posting")
