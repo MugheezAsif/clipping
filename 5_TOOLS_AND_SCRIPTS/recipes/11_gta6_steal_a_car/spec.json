@@ -1,0 +1,17 @@
+{
+"c1_first_heist": {"hook": ["HE DIED ON HIS", "*FIRST HEIST* 💀"], "rewind": "⏪ 2 MINUTES EARLIER",
+ "beats": [[5.7, "sticker", "🚗 STEAL IT → JIMMY BUYS IT FOR DAD", "pop", 2.4], [8.4, "sticker", "🏦 NO BANK: DIE = LOSE IT ALL", "pop", 2.6], [17.3, "stamp", "CHOKED THE GUARD 😳", "impact", 1.2], [25.3, "sticker", "🚓 COPS INSIDE", "pop", 1.6], [29.0, "stamp", "WASTED 💀", "bass", 1.4], [34.0, "sticker", "🔁 THEN HE DID IT AGAIN", "pop", 2.0], [37.4, "stamp", "BACK TO $0", "impact", 1.2], [43.3, "stamp", "\"DISAPPOINTED\" 🥲", "bass", 1.4]],
+ "push": [29.0, 43.3], "shake": [29.0], "cta": "WOULD YOU HAVE ROBBED IT? 👇", "cta_t": 41.0, "cta_y": 330},
+"c2_dads_car": {"hook": ["WHY HIS DAD", "SOLD HIS *CAR* 😂"], "rewind": "⏪ 15 MINUTES EARLIER",
+ "beats": [[9.5, "sticker", "🚗 STEAL IT → JIMMY BUYS IT FOR DAD", "pop", 2.4], [16.2, "sticker", "🏎️ DAD'S HIGH SCHOOL MUSCLE CAR", "pop", 2.4], [18.7, "sticker", "❤️ FIRST DATE WITH MOM", "pop", 2.0], [22.9, "stamp", "HE HAD TO SELL IT 💔", "impact", 1.2], [30.7, "counter", "$10,000|THE SAFE HEIST", "cash", 2.0], [33.5, "counter", "$100,000|OR RISK DYING", "cash", 2.0], [41.5, "stamp", "THAT'S WHY 😂", "bass", 1.6]],
+ "push": [22.9, 41.5], "shake": [41.5], "cta": "SAFE OR RISKY? 👇", "cta_t": 42.4, "cta_y": 330},
+"c3_npc_bank": {"hook": ["NPCs ROBBED THE", "*SAME BANK* 😭"], "rewind": "⏪ 2 MINUTES EARLIER",
+ "beats": [[11.0, "sticker", "🏦 MAX SECURITY BANK", "pop", 1.8], [13.3, "sticker", "⏱️ 13 MINUTES LEFT", "pop", 1.8], [18.8, "sticker", "🎒 BAGS ALREADY FULL", "pop", 2.0], [21.9, "stamp", "SOMEONE ELSE IS ROBBING IT 😳", "impact", 1.6], [34.1, "sticker", "🏃 BAIL!", "pop", 1.4], [40.6, "stamp", "NPCs. SAME. TIME.", "impact", 1.6], [47.7, "stamp", "HE LOST MONEY 😭", "bass", 1.6]],
+ "push": [21.9, 40.6, 47.7], "shake": [47.7], "cta": "WORST LUCK EVER? 👇", "cta_t": 45.0, "cta_y": 330},
+"c4_last_minute": {"hook": ["DAD'S CAR OR", "*DIE TRYING* 🚗"], "rewind": "⏪ 1 MINUTE EARLIER",
+ "beats": [[10.5, "sticker", "💰 NEEDS $100,000", "pop", 1.6], [12.2, "sticker", "🔫 PISTOL · NO ARMOR", "pop", 1.8], [19.3, "sticker", "🛵 OR DAD GETS A MOPED", "pop", 1.8], [21.3, "stamp", "OR DIE TRYING", "impact", 1.4], [31.5, "sticker", "🏎️ NICE… NICE… NICE…", "pop", 2.0], [34.8, "stamp", "NO!", "impact", 1.0], [39.1, "stamp", "NOT ENOUGH ⏱️", "bass", 1.6], [46.0, "emoji", "😭", "pop", 1.2]],
+ "push": [34.8, 39.1], "shake": [34.8], "cta": "SHOULD JIMMY BUY IT ANYWAY? 👇", "cta_t": 43.5, "cta_y": 330},
+"c5_airport_chase": {"hook": ["HIDING FROM COPS", "AT THE *AIRPORT* ✈️"], "rewind": "⏪ 1 MINUTE EARLIER",
+ "beats": [[5.0, "sticker", "💰 DIE NOW = LOSE IT ALL", "pop", 2.2], [9.2, "sticker", "⚠️ MAKE OR BREAK", "pop", 1.6], [13.7, "stamp", "ROADBLOCKS 🚧", "impact", 1.2], [21.7, "sticker", "🚓 COPS EVERYWHERE", "pop", 1.6], [23.6, "sticker", "✈️ STRAIGHT INTO THE AIRPORT", "pop", 2.0], [35.3, "sticker", "🙂 \"I'M JUST A CIVILIAN\"", "pop", 1.8], [37.2, "stamp", "OFF THE RAMP?!", "impact", 1.2], [40.2, "stamp", "SHOOK THEM 😮‍💨", "bass", 1.6]],
+ "push": [37.2, 40.2], "shake": [40.2], "cta": "WHERE WOULD YOU HIDE? 👇", "cta_t": 43.0, "cta_y": 330}
+}

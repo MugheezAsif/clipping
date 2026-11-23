@@ -12,6 +12,7 @@ Everything we have learned about turning long-form video into viral short clips.
 
 | Date | What changed |
 |---|---|
+| 2026-11-22 | Job 11: "If You Steal a Car in GTA 6, I'll Pay For It!" (MrBeast Gaming, `Ra6sNe8s2Hc`, 21 min), 5 clips (first heist, dad's car, NPC bank, last minute, airport chase) + 10 thumbnails (cinema, bignum, vs, reveal, callout) + kits. Rights: **unlicensed** (user chose to clip anyway). |
 | 2026-11-19 | Copyright strategy: rights gate. `clip.py new --rights` stores campaign/permission/open/unlicensed in `source.json`; `kit.py` warns on unlicensed and adds a claim/block playbook to every kit; RUBRIC: Rights; research in `research_notes/copyright_and_content_id.md`. |
 | 2026-11-18 | Job 10: "I Built A City To Save Kids From Illegal Labor" (`v9QtM6qnG50`, 19 min), 5 clips (Isaac's dream home, kid-designed playground, field → city, 325-kid school, clean water) + 10 v2 thumbnails (stack, callout, vs, cinema, bignum) + kits with 13 hashtags each. `clip.py frames` sheet now works with an odd number of frames. Repo pushed to GitHub. |
 | 2026-11-18 | Hashtags 12–15 per post: YouTube (max 15), TikTok and Facebook (own caption in Create reel → *Customize for each platform*); Instagram stays at 5 (platform cap since Dec 2025); X 2, Snapchat 2. `kit.py` merges and checks the counts. Job 09 kit regenerated. |
@@ -240,6 +241,11 @@ python -I 5_TOOLS_AND_SCRIPTS/scripts/thumbs.py <recipe>/thumbs.json 4_EDITABLE_
 - rembg on a kid mid-motion with a busy crowd behind gives fragments; switch that clip to a style without a cutout (callout/cinema) instead of hunting frames.
 
 - Some posted clips (jobs 01–10, all unlicensed MrBeast) got blocked. Lesson: licensing, not editing, decides whether a clip stays up. Check for a campaign before choosing the video.
+
+- Job 11 (gameplay + facecam): `layout auto` gives a clean split (gameplay top, facecam reactions bottom). A clean green-screen intro frame is the best cutout source; facecam frames over gameplay are not.
+- `clip.py render` can fail one clip silently in the tail of the log: always `ls clips/` (5 files) before the kit; re-render a single clip with `npx hyperframes render -q delivery -o <out>` in its project folder.
+- The copy check counts "$10K"/"$100K" as shouting caps words; keep money figures out of titles 2–3 or spell them in a lowercase sentence.
+- Game UI text (e.g. "WASTED") is already in the frame: don't repeat it as thumbnail text.
 
 ## 11. Research backlog (next things to learn or test)
 - [ ] Money: test a $10–20 payout from Whop Content Rewards and Vyro to Pakistan before scaling; pick a second niche (Sports/Gaming/Tech, ~$1.4–2 per 1K views).

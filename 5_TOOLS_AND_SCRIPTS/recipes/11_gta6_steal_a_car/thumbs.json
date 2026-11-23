@@ -1,0 +1,66 @@
+[
+{
+"style": "cinema",
+"l1": "3 MINUTES IN",
+"l2": "$0",
+"tag": "THEN HE RAN BACK IN",
+"bg": "f1.jpg",
+"pos": "50% 50%",
+"pal": "red"
+},
+{
+"style": "bignum",
+"l1": "DAD'S DREAM CAR",
+"l2": "$50K",
+"tag": "1 HOUR TO STEAL IT",
+"bg": "f3.jpg",
+"cut": "f8.jpg",
+"pal": "green"
+},
+{
+"style": "vs",
+"l1": "NOLAN",
+"l2": "THE OTHER ROBBERS",
+"tag": "SAME MINUTE",
+"bg": "f5.jpg",
+"in": "f6.jpg",
+"pos": "40% 50%",
+"inpos": "30% 50%",
+"pal": "orange"
+},
+{
+"style": "reveal",
+"l1": "$100K NEEDED",
+"l2": "DID HE MAKE IT?",
+"bg": "f11.jpg",
+"pos": "60% 50%",
+"at": [
+60,
+84
+],
+"ath": [
+60,
+84
+],
+"r": 220,
+"pal": "pink"
+},
+{
+"style": "callout",
+"l1": "3 STARS WANTED",
+"l2": "HIS GETAWAY",
+"tag": "NO CHEATS",
+"bg": "f10.jpg",
+"pos": "65% 50%",
+"at": [
+25,
+72
+],
+"ath": [
+52,
+72
+],
+"r": 170,
+"pal": "cyan"
+}
+]

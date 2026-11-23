@@ -175,7 +175,7 @@ Publish natively for full reach: **YouTube Studio**, **Meta Business Suite → C
 ## Clipped so far
 
 <details>
-<summary>10 videos · 50 clips (click to expand)</summary>
+<summary>11 videos · 55 clips (click to expand)</summary>
 
 ### 01_Futuristic_Tech: "$1 vs $1,000,000,000 Futuristic Tech!" (with thumbnails)
 | # | Clip | Length |
@@ -267,6 +267,15 @@ Publish natively for full reach: **YouTube Studio**, **Meta Business Suite → C
 | 03 | Empty Field to Entire City | Same spot, one year later (the ribbon won't cut) |
 | 04 | 325 Kids, One Flooded School | 10 new classrooms + 5 years of free meals |
 | 05 | They Had No Clean Water | The well erupts → running water |
+
+### 11_GTA6_Steal_A_Car: "If You Steal a Car in GTA 6, I'll Pay For It!" (MrBeast Gaming, unlicensed)
+| # | Clip | Hook |
+|---|---|---|
+| 01 | He Died on His First Heist | Wasted 3 minutes in, back to $0 |
+| 02 | Why His Dad Sold His Car | "He'd say go for the sure money" |
+| 03 | NPCs Robbed the Same Bank | Random robbers, same bank, same minute |
+| 04 | One Minute Left for Dad's Car | A pistol, no armor, one last bank |
+| 05 | Escaping Cops at the Airport | Roadblocks → "I'm just a civilian" |
 
 </details>
 
